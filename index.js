@@ -18,11 +18,6 @@ await connectDB();
 app.use('/api/auth', auth);
 app.use('/api/tasks', tasks);
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
-
 app.get("/", (req, res) => {
   res.send("API is running!");
 });
