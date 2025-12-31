@@ -2,7 +2,7 @@
 import express from 'express'
 import { body, validationResult} from 'express-validator'
 
-import fetchUser from '../middleware/fetchuser.js'
+import fetchUser from '../middleware/fetchUser.js'
 import Tasks from '../models/Tasks.js';
 
 // router regarding sending and getting data from server

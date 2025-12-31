@@ -6,7 +6,7 @@ import bcrypt from 'bcrypt';
 
 // required files
 import User from '../models/User.js';
-import fetchUser from '../middleware/fetchuser.js'
+import fetchUser from '../middleware/fetchUser.js'
 const JWT_STRING = "WebTokenStringSecure";
 
 // router regarding routes creation
