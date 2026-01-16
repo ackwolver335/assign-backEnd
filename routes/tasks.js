@@ -149,7 +149,7 @@ router.get('/publictasks',
         try{
 
             // finding records those are public
-            const tasks = await Tasks.find({ category: "public" });
+            const tasks = await Tasks.find({ category: "Public" });
             if(!tasks || tasks.length == 0) return res.status(200).json({ success, tasks: [] });
 
             success = true;
